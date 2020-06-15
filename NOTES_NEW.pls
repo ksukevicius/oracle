@@ -1,0 +1,8 @@
+create or replace PROCEDURE NOTES_NEW 
+(
+  TITLE IN NVARCHAR2,
+  NOTE IN NVARCHAR2
+) AS 
+BEGIN
+  INSERT INTO NOTES(title,note) VALUES(title,note);
+END NOTES_NEW;
