@@ -1,0 +1,5 @@
+remote link
+https://github.com/ksukevicius/oracle.git
+
+and the command to link local repo to remote
+git remote add origin https://github.com/ksukevicius/oracle.git
